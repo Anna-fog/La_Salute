@@ -1,0 +1,25 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/animate';
+@import "libs/slick";
+
+@import 'base/variables';
+
+
+* {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/slider";
+
+
+
+@import 'base/media';
