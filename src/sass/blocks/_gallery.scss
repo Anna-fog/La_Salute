@@ -1,0 +1,67 @@
+.gallery {
+  background-color: $beigeBg;
+  min-height: 2000px;
+  padding-top: 170px;
+  &__image {
+    width: 367px;
+    height: 551px;
+    margin-bottom: 8px;
+  }
+  &__wrapper {
+    padding: 20px 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+  &__item {
+    cursor: pointer;
+  }
+}
+
+// magnific-popup
+
+.mfp-close {
+  &:focus {
+    outline: none;
+  }
+}
+
+.mfp-arrow {
+  &:focus {
+    outline: none;
+  }
+}
+
+// animation
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+

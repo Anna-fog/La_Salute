@@ -1,5 +1,5 @@
 .header {
-  height: 185px;
+  height: 170px;
   background: rgba(23, 25, 16, 0.6);
   z-index: 1;
   position: absolute;
@@ -20,8 +20,9 @@
     justify-content: space-between;
     list-style-type: none;
     padding-left: 0;
-    height: 185px;
+    height: 170px;
     align-items: center;
+    margin-bottom: 0;
   }
   &__menu-item {
     transition: 0.3s all;
