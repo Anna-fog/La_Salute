@@ -6,6 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
         slidesToScroll: 1,
         autoplaySpeed: 7000,
         pauseOnHover: false,
+        pauseOnFocus: false,
         dots: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="icn/left.svg"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="icn/right.svg"></button>',

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -7,47 +7,44 @@
     <title>La Salute | Ресторан европейской кухни</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="css/style.min.css">
-</head>
 <body>
 
-    <section class="header">
+    <section class="header header_black">
         <nav>
             <div class="container">
                 <ul class="header__menu">
-                   <div class="header__left">
-                       <a href="menu.html" class="header__link"><li class="header__menu-item header__menu-item_1">Меню</li></a>
+                    <div class="header__left">
+                        <a href="menu.html" class="header__link"><li class="header__menu-item header__menu-item_1 header__menu-item_active active">Меню</li></a>
                         <a href="" class="header__link"><li class="header__menu-item header__menu-item_2">Галерея</li></a>
                         <a href="" class="header__link"><li class="header__menu-item header__menu-item_3">О нас</li></a>
-                   </div>
+                    </div>
 
-                    <div class="header__logo">
+                    <div class="header__logo header__logo_menu">
                         <div class="header__logo-wrapper">
-                            <a class="header__salute" href="#">La Salute</a>
+                            <a class="header__salute" href="index.html">La Salute</a>
                             <img src="images/logo_leaves.png" alt="" class="header__leaves">
                         </div>
                         <div class="header__descr"> Ресторан европейской кухни</div>
                     </div>
 
                     <div class="header__right">
-                         <a href="" class="header__link"><li class="header__menu-item header__menu-item_4">Контакты</li></a>
+                        <a href="" class="header__link"><li class="header__menu-item header__menu-item_4">Контакты</li></a>
                     </div>
                 </ul>
             </div>
         </nav>
-        <div class="header__circle"><img src="images/salute_green.svg" alt="Logo"></div>
     </section>
 
-    <section class="slider">
-        <div class="slider__inner">
-            <div class="slider__item slider__item_1"></div>
-
-            <div class="slider__item slider__item_2"></div>
-
-            <div class="slider__item slider__item_3"></div>
-
-            <div class="slider__item slider__item_4"></div>
-
-            <div class="slider__item slider__item_5"></div>
+    <section class="menu">
+        <div class="menu__snacks">
+            <div class="container">
+                <div class="menu__other">
+                    <a href="" class="menu__breakfast">Завтраки</a>
+                    <a href="" class="menu__lunch">Обеды</a>
+                </div>
+                <h2 class="menu__subtitle">Основное меню</h2>
+                <div class="menu__img"><img src="images/cold-snacks.png" alt="Menu" class="menu__1"></div>
+            </div>
         </div>
     </section>
 
@@ -57,5 +54,6 @@
     <script src="js/slick.min.js"></script>
 
     <script src='js/script.js'></script>
+
 </body>
 </html>

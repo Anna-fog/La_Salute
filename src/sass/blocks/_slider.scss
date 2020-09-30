@@ -64,6 +64,10 @@
     background: none;
     border: none;
     color: transparent;
+    &:focus {
+      outline: none;
+    }
+
   }
 
   .slick-dots li {
