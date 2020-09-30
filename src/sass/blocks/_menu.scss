@@ -44,12 +44,34 @@
       margin-left: 10px;
     }
   }
-  &__img {
+  &__item-1 {
     margin-top: 30px;
     width: 1120px;
     height: 1541px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  &__pasta {
+    margin-top: 15px;
+    height: 1480px;
+    background: url("../images/menu_bg2.jpg") center center/cover no-repeat;
+    padding: 30px;
+  }
+  &__item-2 {
+    width: 1120px;
+    height: 1401px;
+  }
+
+  &__dessert {
+    margin-top: 15px;
+    height: 1733px;
+    background: url("../images/menu_bg3.jpg") center center/cover no-repeat;
+    padding: 30px;
+  }
+  &__item-2 {
+    width: 1120px;
+    height: 1648px;
   }
 }
