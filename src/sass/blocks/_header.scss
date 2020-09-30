@@ -32,7 +32,7 @@
     &:hover {
       color: $olive;
       &:before, &:after {
-        width: 43px;
+        width: 100%;
       }
     }
     &:before, &:after {
@@ -41,35 +41,14 @@
       background-color: $olive;
       height: 1px;
       width: 0;
-      transition: 0.3s all ease-in-out;
+      transition: 0.3s all;
     }
     &:after {
       margin-top: 4px;
     }
-    &_2 {
-      &:hover {
-        &:before, &:after {
-          width: 59px;
-        }
-      }
-    }
-    &_3 {
-      &:hover {
-        &:before, &:after {
-          width: 40px;
-        }
-      }
-    }
-    &_4 {
-      &:hover {
-        &:before, &:after {
-          width: 69px;
-        }
-      }
-    }
-  }
+     }
   &__link {
-    transition: 0.3s all ease-in-out;
+    transition: 0.3s all;
     &:hover {
       text-decoration: none;
     }
@@ -87,6 +66,9 @@
     &_menu {
       margin-right: 54px;
     }
+    &_contacts {
+      margin-right: 84px;
+    }
   }
   &__logo-wrapper {
     display: flex;
@@ -95,7 +77,7 @@
     font-family: 'Alex Brush', cursive;
     font-size: 38px;
     color: white;
-    transition: 0.5s all ease-in-out;
+    transition: 0.5s all;
     &:hover {
       text-decoration: none;
       color: $beige;
@@ -122,6 +104,10 @@
   &__circle img {
     width: 160px;
     height: 153px;
+    transition: 0.5s all;
+    &:hover {
+      filter: hue-rotate(-20deg);
+    }
   }
   &__circle {
     position: absolute;

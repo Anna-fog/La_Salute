@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>La Salute | Ресторан европейской кухни</title>
-        <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
         <link rel="stylesheet" href="css/style.min.css">
     </head>
     <body>
@@ -17,10 +17,10 @@
                     <div class="header__left">
                         <a href="menu.html" class="header__link"><li class="header__menu-item header__menu-item_1">Меню</li></a>
                         <a href="gallery.html" class="header__link"><li class="header__menu-item header__menu-item_2">Галерея</li></a>
-                        <a href="about-us.html" class="header__link"><li class="header__menu-item header__menu-item_3 header__menu-item_active active">О нас</li></a>
+                        <a href="about-us.html" class="header__link"><li class="header__menu-item header__menu-item_3">О нас</li></a>
                     </div>
 
-                    <div class="header__logo">
+                    <div class="header__logo header__logo_contacts">
                         <div class="header__logo-wrapper">
                             <a class="header__salute" href="index.html">La Salute</a>
                             <img src="images/logo_leaves.png" alt="" class="header__leaves">
@@ -29,7 +29,7 @@
                     </div>
 
                     <div class="header__right">
-                        <a href="" class="header__link"><li class="header__menu-item header__menu-item_4">Контакты</li></a>
+                        <a href="contacts.html" class="header__link"><li class="header__menu-item header__menu-item_4 header__menu-item_active active">Контакты</li></a>
                     </div>
                 </ul>
             </div>
@@ -37,10 +37,37 @@
     </section>
 
     <section class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts__main animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.4s">>
+                    <div class="contacts__address">Гомель, ул. Рогачёвская 4</div>
+                    <a href="tel:+375447779099" class="contacts__phone">8 044 777-90-99</a>
+                    <div class="contacts__social">
+                        <a href="https://web.facebook.com/lasalute.gomel" target="_blank"><svg class="facebook" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.92969 20H9.45312V12.8906H7.10938V10.5469H9.45312V7.61719C9.45312 6.00174 10.7674 4.6875 12.3828 4.6875H15.3125V7.03125H12.9688C12.3225 7.03125 11.7969 7.55692 11.7969 8.20312V10.5469H15.2068L14.8161 12.8906H11.7969V20H17.0703C18.6858 20 20 18.6858 20 17.0703V2.92969C20 1.31424 18.6858 0 17.0703 0H2.92969C1.31424 0 0 1.31424 0 2.92969V17.0703C0 18.6858 1.31424 20 2.92969 20ZM1.17188 2.92969C1.17188 1.96045 1.96045 1.17188 2.92969 1.17188H17.0703C18.0396 1.17188 18.8281 1.96045 18.8281 2.92969V17.0703C18.8281 18.0396 18.0396 18.8281 17.0703 18.8281H12.9688V14.0625H15.8089L16.5901 9.375H12.9688V8.20312H16.4844V3.51562H12.3828C10.1212 3.51562 8.28125 5.35553 8.28125 7.61719V9.375H5.9375V14.0625H8.28125V18.8281H2.92969C1.96045 18.8281 1.17188 18.0396 1.17188 17.0703V2.92969Z" fill="white"/>
+                        </svg></a>
 
+                        <a href="https://www.instagram.com/lasalute.gomel/" target="_blank"> <svg class="instagram" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.92969 20H17.0703C18.6858 20 20 18.6858 20 17.0703V2.92969C20 1.31424 18.6858 0 17.0703 0H2.92969C1.31424 0 0 1.31424 0 2.92969V17.0703C0 18.6858 1.31424 20 2.92969 20ZM1.17188 2.92969C1.17188 1.96045 1.96045 1.17188 2.92969 1.17188H17.0703C18.0396 1.17188 18.8281 1.96045 18.8281 2.92969V17.0703C18.8281 18.0396 18.0396 18.8281 17.0703 18.8281H2.92969C1.96045 18.8281 1.17188 18.0396 1.17188 17.0703V2.92969Z" fill="white"/>
+                            <path d="M10 15.2734C12.9077 15.2734 15.2734 12.9077 15.2734 10C15.2734 7.09229 12.9077 4.72656 10 4.72656C7.09229 4.72656 4.72656 7.09229 4.72656 10C4.72656 12.9077 7.09229 15.2734 10 15.2734ZM10 5.89844C12.2617 5.89844 14.1016 7.73834 14.1016 10C14.1016 12.2617 12.2617 14.1016 10 14.1016C7.73834 14.1016 5.89844 12.2617 5.89844 10C5.89844 7.73834 7.73834 5.89844 10 5.89844Z" fill="white"/>
+                            <path d="M15.8594 5.89844C16.8286 5.89844 17.6172 5.10986 17.6172 4.14062C17.6172 3.17139 16.8286 2.38281 15.8594 2.38281C14.8901 2.38281 14.1016 3.17139 14.1016 4.14062C14.1016 5.10986 14.8901 5.89844 15.8594 5.89844ZM15.8594 3.55469C16.1824 3.55469 16.4453 3.8176 16.4453 4.14062C16.4453 4.46365 16.1824 4.72656 15.8594 4.72656C15.5363 4.72656 15.2734 4.46365 15.2734 4.14062C15.2734 3.8176 15.5363 3.55469 15.8594 3.55469Z" fill="white"/>
+                        </svg></a>
+
+                    </div>
+                </div>
+
+                <div class="contacts__hours animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.4s">>Часы работы <br>
+                    пн-пт 12.00-23.00 <br>
+                    сб-вс 9.00-23.00, завтраки до 12.00</div>
+            </div>
+
+            <div class="contacts__map animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.4s">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2432.313638897508!2d31.000000030513128!3d52.43723302394988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d46907707ceea1%3A0x2e19924d9abc25c7!2sLa%20Salute!5e0!3m2!1sru!2sby!4v1601461345274!5m2!1sru!2sby" width="1120" height="380vh" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" loading="lazy"></iframe>
+            </div>
+        </div>
     </section>
 
-
+    <script src="js/wow.min.js"></script>
     <script src='js/script.js'></script>
 
     </body>

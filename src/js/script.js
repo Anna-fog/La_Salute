@@ -38,6 +38,10 @@ window.addEventListener('DOMContentLoaded', () => {
        });
    } catch (e) {}
 
+   try {
+       new WOW().init();
+   } catch (e) {}
+
 
 });
 

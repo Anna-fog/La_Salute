@@ -1,5 +1,5 @@
 .about {
-  padding: 185px 0 0 10px;
+  padding: 185px 0 0 0;
   background: url("../images/about-us_bg.jpg") center center/cover no-repeat;
   min-height: 100vh;
   width: 100%;
@@ -32,7 +32,7 @@
     position: absolute;
     background: rgba(23, 25, 16, 0.6);
     width: 1000px;
-    height: 60%;
+    height: 70%;
     bottom: 0;
   }
 }
