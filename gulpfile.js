@@ -92,9 +92,9 @@ gulp.task('icn', function () {
 });
 
 gulp.task('images', function () {
-    return gulp.src("src/img/**/*")
+    return gulp.src("src/images/**/*")
         .pipe(imagemin())
-        .pipe(gulp.dest("dist/img"));
+        .pipe(gulp.dest("dist/images"));
 });
 
 gulp.task('csstmp', function () {

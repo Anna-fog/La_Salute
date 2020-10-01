@@ -1,0 +1,30 @@
+.mobile {
+  display: none;
+  nav {
+    position: absolute;
+  }
+  &__menu {
+    min-height: 260px;
+    background-color: rgba(92, 72, 57, 0.8);
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    padding: 30px 40px;
+    width: 70%;
+    border-radius: 0 0 40px 0;
+    z-index: 3;
+
+  }
+  &__item {
+    a {
+      color: white;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

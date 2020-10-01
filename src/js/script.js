@@ -1,4 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
+
+    // slick-slider
+
     try {
         $('.slider__inner').slick({
             speed: 2200,
@@ -24,6 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
     } catch (e) {}
 
 
+// magnific popup
 
    try {
        $('.gallery__wrapper').magnificPopup({
@@ -41,6 +45,67 @@ window.addEventListener('DOMContentLoaded', () => {
    try {
        new WOW().init();
    } catch (e) {}
+
+
+   // burger
+
+    const menuBurger = document.querySelector('.burger'),
+        mobile = document.querySelector('.mobile'),
+        mobileLinks = mobile.querySelectorAll('a'),
+        mobileItems = document.querySelectorAll('.mobile__item')
+
+
+    function openMenu() {
+
+        window.addEventListener('resize', () => {
+            if (window.screen.availWidth < 767 && mobile.style.display === 'none') {
+                menuBurger.style.display = 'block';
+            }
+        });
+
+        menuBurger.addEventListener('click', (e) => {
+            mobile.style.display = 'block';
+            menuBurger.style.display = 'none';
+            mobileItems.forEach(item => {
+                item.classList.add('animated', 'fadeInLeft');
+            });
+        });
+    }
+
+    function closeMenu(trigger) {
+        trigger.addEventListener('click', () => {
+            if (mobile.style.display === 'block') {
+                mobile.style.display = 'none';
+                menuBurger.style.display = 'block';
+                menuBurger.classList.add('animated', 'fadeInRight');
+            }
+        });
+
+        mobileLinks.forEach(item => {
+            item.addEventListener('click', () => {
+                if (mobile.style.display === 'block') {
+                    mobile.style.display = 'none';
+                    menuBurger.style.display = 'block';
+                    menuBurger.classList.add('animated', 'fadeInUp');
+                }
+            });
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.screen.availWidth > 767) {
+                mobile.style.display = 'none';
+                menuBurger.style.display = 'none';
+            }
+        });
+    }
+
+
+     try {
+         openMenu();
+         closeMenu(mobile);
+     } catch (e) {}
+
+
 
 
 });

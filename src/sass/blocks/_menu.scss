@@ -2,10 +2,12 @@
   padding-top: 170px;
   background-color: $beigeBg;
   &__snacks {
-    height: 1666px;
+    min-height: 1687px;
     background: url("../images/menu_bg1.jpg") center center/cover no-repeat;
-    padding: 30px 40px 40px 40px;
+    padding: 30px;
     position: relative;
+    display: flex;
+    justify-content: center;
   }
   &__other {
     width: 149px;
@@ -46,32 +48,62 @@
   }
   &__item-1 {
     margin-top: 30px;
-    width: 1120px;
-    height: 1541px;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
+  &__1 {
+    width: auto;
+    height: auto;
+  }
+
   &__pasta {
     margin-top: 15px;
-    height: 1480px;
+    min-height: 1492px;
     background: url("../images/menu_bg2.jpg") center center/cover no-repeat;
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
   }
   &__item-2 {
-    width: 1120px;
-    height: 1401px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__2 {
+    width: auto;
+    height: auto;
   }
 
   &__dessert {
     margin-top: 15px;
-    height: 1733px;
+    min-height: 1733px;
     background: url("../images/menu_bg3.jpg") center center/cover no-repeat;
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
   }
-  &__item-2 {
-    width: 1120px;
-    height: 1648px;
+
+  &__item-3 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  &__3 {
+    width: auto;
+    height: auto;
+  }
+
+
 }
