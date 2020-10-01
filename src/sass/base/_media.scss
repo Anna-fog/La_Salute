@@ -155,13 +155,11 @@
       display: block;
       position: absolute;
       top: 45px;
-      right: 75px;
+      right: 60px;
       cursor: pointer;
       font-family: Bitter, serif;
       font-weight: 300;
     }
-
-
 
     .header {
       height: 120px;
@@ -207,19 +205,24 @@
     .menu {
       padding-top: 120px;
 
-      &__breakfast {
-        margin-left: 20px;
+      &__download {
+        margin-right: 10px;
       }
 
       &__lunch {
-        margin-right: 20px;
+        order: 3;
       }
 
       &__subtitle {
-        transform: translateX(-95px);
+        display: none;
       }
       &__other {
         width: auto;
+        a {
+          &:hover {
+            color: white;
+          }
+        }
       }
       &__snacks {
         min-height: 1030px;
@@ -286,6 +289,26 @@
       &__map {
         margin-top: 30px;
       }
+      &__phone {
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    .facebook {
+      &:hover {
+        path {
+          fill: white;
+        }
+      }
+    }
+    .instagram {
+      &:hover {
+        path {
+          fill: white;
+        }
+      }
     }
   }
 
@@ -317,6 +340,12 @@
       &__subtitle {
         display: none;
       }
+      &__breakfast {
+        font-size: 15px;
+      }
+      &__lunch {
+        font-size: 15px;
+      }
       &__snacks {
         padding: 20px 0;
         min-height: 833px;
@@ -325,7 +354,7 @@
         height: 730px;
        &:before {
          content: url("../images/cold-snacks_xs.png");
-         transform: scale(.435);
+         transform: scale(.42);
        }
       }
 
@@ -338,7 +367,7 @@
         height: 735px;
         &:before {
           content: url("../images/pasta_xs.png");
-          transform: scale(.435);
+          transform: scale(.42);
         }
       }
 
@@ -350,7 +379,7 @@
         height: 725px;
         &:before {
           content: url("../images/desserts_xs.png");
-          transform: scale(.435);
+          transform: scale(.42);
         }
       }
     }
@@ -374,7 +403,7 @@
       }
       &__img {
         margin: 0 5px;
-        height: 32vh;
+        height: 182px;
       }
       &__rect {
         height: 80%;

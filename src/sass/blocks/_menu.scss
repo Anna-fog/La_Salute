@@ -1,6 +1,12 @@
 .menu {
   padding-top: 170px;
   background-color: $beigeBg;
+  &__breakfast {
+    font-size: 16px;
+  }
+  &__lunch {
+    font-size: 16px;
+  }
   &__snacks {
     min-height: 1687px;
     background: url("../images/menu_bg1.jpg") center center/cover no-repeat;
@@ -10,7 +16,7 @@
     justify-content: center;
   }
   &__other {
-    width: 149px;
+    width: 190px;
     display: flex;
     justify-content: space-between;
     a {
