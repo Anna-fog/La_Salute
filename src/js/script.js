@@ -99,13 +99,38 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-
      try {
          openMenu();
          closeMenu(mobile);
      } catch (e) {}
 
 
+    // pageup & smooth scroll
+
+    try {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 1300) {
+                $('.pageup').fadeIn();
+            } else {
+                $('.pageup').fadeOut();
+            }
+        });
+
+        $("a[href=#up]").click(function(){
+            const _href = $(this).attr("href");
+            $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+            return false;
+        });
+
+        $('a[href^="#"]').on('click', function() {
+            let href = $(this).attr('href');
+
+            $('html, body').animate({
+                scrollTop: $(href).offset().top
+            }, 400);
+            return false;
+        });
+    } catch (e) {}
 
 
 });

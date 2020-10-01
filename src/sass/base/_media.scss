@@ -194,7 +194,7 @@
       }
       &__logo-wrapper {
         align-items: center;
-        transform: translateX(19px);
+        transform: translateX(22px);
       }
       &__leaves {
         transform: none;
@@ -290,5 +290,111 @@
   }
 
   @media (max-width: 575px) {
+      .container {
+        width: 340px;
+        max-width: 340px;
+      }
+    .burger {
+      right: 15px;
+      font-size: 14px;
+      top: 54px;
+    }
 
+    .header {
+      &__leaves {
+        transform: translateX(-7px);
+      }
+      &__salute {
+        font-size: 36px;
+        &:after {
+          transform: translate(-1px,-6px);
+          width: 140px;
+        }
+      }
+    }
+
+    .menu {
+      &__subtitle {
+        display: none;
+      }
+      &__snacks {
+        padding: 20px 0;
+        min-height: 833px;
+      }
+      &__item-1 {
+        height: 730px;
+       &:before {
+         content: url("../images/cold-snacks_xs.png");
+         transform: scale(.435);
+       }
+      }
+
+      &__pasta {
+        margin-top: 5px;
+        min-height: 770px;
+      }
+
+      &__item-2 {
+        height: 735px;
+        &:before {
+          content: url("../images/pasta_xs.png");
+          transform: scale(.435);
+        }
+      }
+
+      &__dessert {
+        margin-top: 5px;
+        min-height: 760px;
+      }
+      &__item-3 {
+        height: 725px;
+        &:before {
+          content: url("../images/desserts_xs.png");
+          transform: scale(.435);
+        }
+      }
+    }
+
+    .gallery {
+      &__wrapper {
+        width: 340px;
+      }
+      &__image {
+        width: 320px;
+        height: 480px;
+      }
+    }
+
+    .about {
+      &__descr {
+        p {
+          width: 324px;
+          font-size: 14px;
+        }
+      }
+      &__img {
+        margin: 0 5px;
+        height: 32vh;
+      }
+      &__rect {
+        height: 80%;
+      }
+      &__photo {
+        width: 340px;
+      }
+    }
+
+    .contacts {
+      iframe {
+        width: 340px;
+      }
+
+      &__hours {
+        position: relative;
+        text-align: center;
+        width: 335px;
+        margin-top: 15px;
+      }
+    }
   }
+
