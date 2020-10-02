@@ -80,7 +80,7 @@
         height: 1235px;
         &:before {
           display: block;
-          content: url("../images/cold-snacks_sm.png");
+          content: url("../img/cold-snacks_sm.png");
           transform: scale(0.8);
         }
       }
@@ -95,7 +95,7 @@
         height: 1135px;
         &:before {
           display: block;
-          content: url("../images/pasta_sm.png");
+          content: url("../img/pasta_sm.png");
           transform: scale(0.8);
         }
       }
@@ -110,7 +110,7 @@
         height: 1340px;
         &:before {
           display: block;
-          content: url("../images/desserts_sm.png");
+          content: url("../img/desserts_sm.png");
           transform: scale(0.8);
         }
       }
@@ -310,6 +310,16 @@
         }
       }
     }
+    .tripadvisor {
+      &:hover {
+        path {
+          fill: white;
+        }
+        rect {
+          stroke: white;
+        }
+      }
+    }
   }
 
   @media (max-width: 575px) {
@@ -353,7 +363,7 @@
       &__item-1 {
         height: 730px;
        &:before {
-         content: url("../images/cold-snacks_xs.png");
+         content: url("../img/cold-snacks_xs.png");
          transform: scale(.42);
        }
       }
@@ -366,7 +376,7 @@
       &__item-2 {
         height: 735px;
         &:before {
-          content: url("../images/pasta_xs.png");
+          content: url("../img/pasta_xs.png");
           transform: scale(.42);
         }
       }
@@ -378,7 +388,7 @@
       &__item-3 {
         height: 725px;
         &:before {
-          content: url("../images/desserts_xs.png");
+          content: url("../img/desserts_xs.png");
           transform: scale(.42);
         }
       }

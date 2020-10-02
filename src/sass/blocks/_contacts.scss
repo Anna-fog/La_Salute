@@ -1,6 +1,6 @@
 .contacts {
   padding: 185px 0 20px 0;
-  background: url("../images/contacts_bg.jpg") center center/cover no-repeat;
+  background: url("../img/contacts_bg.jpg") center center/cover no-repeat;
   min-height: 100vh;
   width: 100%;
   &__phone {
@@ -22,7 +22,7 @@
     flex-direction: column;
   }
   &__social {
-    width: 50px;
+    width: 80px;
     display: flex;
     justify-content: space-between;
     a svg {
@@ -56,7 +56,7 @@
   }
   &:hover {
     path {
-      fill: $olive
+      fill: $olive;
     }
   }
 }
@@ -69,7 +69,28 @@
   }
   &:hover {
     path {
-      fill: $olive
+      fill: $olive;
+    }
+  }
+}
+
+.tripadvisor {
+  path {
+    fill: white;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+  }
+  rect {
+    stroke: white;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+  }
+  &:hover {
+    path {
+      fill: $olive;
+    }
+    rect {
+      stroke: $olive;
     }
   }
 }
