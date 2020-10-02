@@ -139,6 +139,7 @@
   &__scale {
     display: flex;
     align-items: center;
+    transform: translateX(17px);
     &:before {
       content: url("../icn/menu_scale.svg");
       display: block;

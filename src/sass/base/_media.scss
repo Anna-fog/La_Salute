@@ -104,6 +104,10 @@
         }
       }
 
+      &__scale {
+        transform: translateX(0px);
+      }
+
       &__chef {
         &_pepper {
           transform: translateX(-14px);
@@ -457,6 +461,11 @@
       }
       &__simple {
         transform: translateX(15px);
+      }
+      &__scale {
+        &:before {
+          margin-right: 8px;
+        }
       }
 
 
