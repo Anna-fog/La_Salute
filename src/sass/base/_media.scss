@@ -4,19 +4,22 @@
     max-width: 940px;
   }
   .menu {
-    &__1 {
-      width: 960px;
-      height: 1311px;
-    }
+    //&__1 {
+    //  width: 960px;
+    //  height: 1311px;
+    //}
+    //&__2 {
+    //  width: 960px;
+    //  height: 1194px;
+    //}
+    //&__3 {
+    //  width: 960px;
+    //  height: 1400px;
+    //}
 
     &__snacks {
       padding: 30px 20px 20px 20px;
       min-height: 1415px;
-    }
-
-    &__2 {
-      width: 960px;
-      height: 1194px;
     }
 
     &__pasta {
@@ -29,9 +32,8 @@
       min-height: 1430px;
     }
 
-    &__3 {
-      width: 960px;
-      height: 1400px;
+    &__item {
+      width: 942px;
     }
   }
 
@@ -67,53 +69,98 @@
     }
 
     .menu {
+      &__item {
+        padding: 30px 15px;
+        width: 720px;
+      }
+
+      &__new {
+        &:before {
+          font-size: 12px;
+          margin-right: 5px;
+        }
+      }
+
+      &__chef {
+        &:before {
+          margin-right: 8px;
+        }
+      }
+
+      &__simple {
+        transform: translateX(35px);
+      }
+
+      &__pepper {
+        &:before {
+          margin-right: 0;
+        }
+      }
+
+      &__vegan {
+        transform: translateX(-10px);
+        &:before {
+          margin-right: 8px;
+        }
+      }
+
+      &__chef {
+        &_pepper {
+          transform: translateX(-14px);
+          &:before {
+            margin-right: 0;
+          }
+        }
+      }
+
       &__subtitle {
         font-size: 18px;
       }
       &__snacks {
         min-height: 1335px;
       }
-      &__1 {
-        display: none;
-      }
-      &__item-1 {
-        height: 1235px;
-        &:before {
-          display: block;
-          content: url("../img/cold-snacks_sm.png");
-          transform: scale(0.8);
-        }
-      }
-
       &__pasta {
         min-height: 1170px;
       }
-      &__2 {
-        display: none;
-      }
-      &__item-2 {
-        height: 1135px;
-        &:before {
-          display: block;
-          content: url("../img/pasta_sm.png");
-          transform: scale(0.8);
-        }
-      }
-
       &__dessert {
         min-height: 1370px;
       }
-      &__3 {
-        display: none;
-      }
-      &__item-3 {
-        height: 1340px;
-        &:before {
-          display: block;
-          content: url("../img/desserts_sm.png");
-          transform: scale(0.8);
-        }
-      }
+
+
+      //&__1 {
+      //  display: none;
+      //}
+      //&__item-1 {
+      //  height: 1235px;
+      //  &:before {
+      //    display: block;
+      //    content: url("../img/cold-snacks_sm.png");
+      //    transform: scale(0.8);
+      //  }
+      //}
+      //&__2 {
+      //  display: none;
+      //}
+      //&__item-2 {
+      //  height: 1135px;
+      //  &:before {
+      //    display: block;
+      //    content: url("../img/pasta_sm.png");
+      //    transform: scale(0.8);
+      //  }
+      //}
+      //&__3 {
+      //  display: none;
+      //}
+      //&__item-3 {
+      //  height: 1340px;
+      //  &:before {
+      //    display: block;
+      //    content: url("../img/desserts_sm.png");
+      //    transform: scale(0.8);
+      //  }
+      //}
+
     }
 
     .gallery {
@@ -205,6 +252,47 @@
     .menu {
       padding-top: 120px;
 
+      &__title {
+        margin-bottom: 10px;
+      }
+
+      &__item {
+        width: 520px;
+        padding: 30px 5px;
+        &_1 {
+          height: 1670px;
+        }
+        &_2 {
+          height: 1505px;
+        }
+        &_3 {
+          height: 1415px;
+        }
+      }
+
+      table {
+        margin-bottom: 20px;
+      }
+
+      table td {
+        font-size: 14px;
+        &:nth-child(1) {
+          width: 87%;
+        }
+        &:nth-child(2) {
+          width: 12%;
+        }
+        &:nth-child(3) {
+          width: 65px;
+        }
+      }
+
+      &__chef {
+        &_pepper {
+          transform: translateX(-2px);
+        }
+      }
+
       &__download {
         margin-right: 10px;
       }
@@ -227,33 +315,31 @@
       &__snacks {
         min-height: 1030px;
       }
-      &__item-1 {
-        height: 930px;
-        &:before {
-          transform: scale(.6);
-        }
-      }
-
-
       &__pasta {
         min-height: 890px;
       }
-      &__item-2 {
-        height: 850px;
-        &:before {
-          transform: scale(.6);
-        }
-      }
-
       &__dessert {
         min-height: 1030px;
       }
-      &__item-3 {
-        height: 1000px;
-        &:before {
-          transform: scale(.6);
-        }
-      }
+
+      //&__item-1 {
+      //  height: 930px;
+      //  &:before {
+      //    transform: scale(.6);
+      //  }
+      //}
+      //&__item-2 {
+      //  height: 850px;
+      //  &:before {
+      //    transform: scale(.6);
+      //  }
+      //}
+      //&__item-3 {
+      //  height: 1000px;
+      //  &:before {
+      //    transform: scale(.6);
+      //  }
+      //}
     }
 
     .gallery {
@@ -347,6 +433,33 @@
     }
 
     .menu {
+      &__item {
+        width: 340px;
+        padding: 10px 9px;
+        &_1 {
+          height: 1830px;
+        }
+        &_2 {
+          height: 1800px;
+        }
+        &_3 {
+          height: 1425px;
+        }
+      }
+      table {
+        border-spacing: 0;
+      }
+      table td:nth-child(3) {
+        width: 40px;
+      }
+      &__title {
+        font-size: 18px;
+      }
+      &__simple {
+        transform: translateX(15px);
+      }
+
+
       &__subtitle {
         display: none;
       }
@@ -360,38 +473,38 @@
         padding: 20px 0;
         min-height: 833px;
       }
-      &__item-1 {
-        height: 730px;
-       &:before {
-         content: url("../img/cold-snacks_xs.png");
-         transform: scale(.42);
-       }
-      }
-
       &__pasta {
         margin-top: 5px;
         min-height: 770px;
       }
-
-      &__item-2 {
-        height: 735px;
-        &:before {
-          content: url("../img/pasta_xs.png");
-          transform: scale(.42);
-        }
-      }
-
       &__dessert {
         margin-top: 5px;
         min-height: 760px;
       }
-      &__item-3 {
-        height: 725px;
-        &:before {
-          content: url("../img/desserts_xs.png");
-          transform: scale(.42);
-        }
-      }
+
+
+      //&__item-1 {
+      //  height: 730px;
+      // &:before {
+      //   content: url("../img/cold-snacks_xs.png");
+      //   transform: scale(.42);
+      // }
+      //}
+      //&__item-2 {
+      //  height: 735px;
+      //  &:before {
+      //    content: url("../img/pasta_xs.png");
+      //    transform: scale(.42);
+      //  }
+      //}
+      //&__item-3 {
+      //  height: 725px;
+      //  &:before {
+      //    content: url("../img/desserts_xs.png");
+      //    transform: scale(.42);
+      //  }
+      //}
+
     }
 
     .gallery {

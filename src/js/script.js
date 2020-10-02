@@ -14,15 +14,6 @@ window.addEventListener('DOMContentLoaded', () => {
             dots: true,
             prevArrow: '<button type="button" class="slick-prev"><img src="icn/left.svg"></button>',
             nextArrow: '<button type="button" class="slick-next"><img src="icn/right.svg"></button>',
-            // responsive: [
-            //     {
-            //         breakpoint: 992,
-            //         settings: {
-            //             dots: true,
-            //             arrows: false
-            //         }
-            //     }
-            // ]
         });
     } catch (e) {}
 
