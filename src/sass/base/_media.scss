@@ -98,9 +98,8 @@
       }
 
       &__vegan {
-        transform: translateX(-10px);
         &:before {
-          margin-right: 8px;
+          margin-right: 0;
         }
       }
 
@@ -465,6 +464,11 @@
       &__scale {
         &:before {
           margin-right: 8px;
+        }
+      }
+      &__vegan {
+        &:before {
+          margin-right: 7px;
         }
       }
 

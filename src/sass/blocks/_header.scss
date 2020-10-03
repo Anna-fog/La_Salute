@@ -105,7 +105,8 @@
   &__circle img {
     width: 160px;
     height: 153px;
-    transition: 0.5s all;
+    transition: 0.7s all;
+    filter: hue-rotate(20deg);
     &:hover {
       filter: hue-rotate(-20deg);
     }
@@ -114,7 +115,7 @@
     position: absolute;
     top: 43vh;
     left: 50%;
-    transform: translateX(-35%);
+    transform: translateX(-40%);
   }
 
 }
