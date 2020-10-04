@@ -12,6 +12,13 @@
   color: white;
 }
 
+* html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+
+}
+
 .container {
   max-width: 1120px;
   width: 1120px;
@@ -22,9 +29,10 @@
   display: none;
 }
 
+
+
 @import "blocks/header";
 @import "blocks/slider";
-//@import "blocks/menu";
 @import "blocks/gallery";
 @import "blocks/about";
 @import "blocks/contacts";
