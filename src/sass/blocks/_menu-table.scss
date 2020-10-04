@@ -2,10 +2,10 @@
   padding-top: 170px;
   background-color: $beigeBg;
   &__breakfast {
-    font-size: 16px;
+    font-size: 1rem;
   }
   &__lunch {
-    font-size: 16px;
+    font-size: 1rem;
   }
   &__snacks {
     min-height: 1750px;
@@ -32,7 +32,7 @@
     position: absolute;
     font-family: Bitter, serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     left: 50%;
     transform: translateX(-100px);
     top: 30px;
@@ -93,7 +93,7 @@
   &__title {
     text-transform: uppercase;
     font-family: Bitter, serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: $black;
     text-align: center;
     caption-side: top;
@@ -157,7 +157,7 @@
       display: block;
       color: $olive;
       margin-right: 15px;
-      font-size: 14px;
+      font-size: 0.875rem;
     }
   }
 
@@ -169,7 +169,7 @@
       font-family: Bitter, serif;
       display: block;
       margin-right: 15px;
-      font-size: 14px;
+      font-size: 0.875rem;
     }
     &_pepper {
       transform: translateX(-26px);

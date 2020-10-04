@@ -63,7 +63,7 @@
 
       &__new {
         &:before {
-          font-size: 12px;
+          font-size: 0.75rem;
           margin-right: 5px;
         }
       }
@@ -107,7 +107,7 @@
       }
 
       &__subtitle {
-        font-size: 18px;
+        font-size: 1.125rem;
       }
       &__snacks {
         min-height: 1335px;
@@ -175,7 +175,7 @@
         width: 165px;
       }
       &__descr {
-        font-size: 14px;
+        font-size: 0.875rem;
         margin-right: 0;
       }
       &__left, &__right {
@@ -232,7 +232,7 @@
       }
 
       table td {
-        font-size: 14px;
+        font-size: 0.875rem;
         &:nth-child(1) {
           width: 87%;
         }
@@ -353,7 +353,7 @@
       }
     .burger {
       right: 15px;
-      font-size: 14px;
+      font-size: 0.875rem;
       top: 54px;
     }
 
@@ -362,7 +362,7 @@
         transform: translateX(-7px);
       }
       &__salute {
-        font-size: 36px;
+        font-size: 2.25rem;
         &:after {
           transform: translate(-1px,-6px);
           width: 140px;
@@ -391,7 +391,7 @@
         width: 40px;
       }
       &__title {
-        font-size: 18px;
+        font-size: 1.125rem;
       }
       &__simple {
         transform: translateX(15px);
@@ -412,10 +412,10 @@
         display: none;
       }
       &__breakfast {
-        font-size: 15px;
+        font-size: 0.9375rem;
       }
       &__lunch {
-        font-size: 15px;
+        font-size: 0.9375rem;
       }
       &__snacks {
         padding: 20px 0;
@@ -445,7 +445,7 @@
       &__descr {
         p {
           width: 324px;
-          font-size: 14px;
+          font-size: 0.875rem;
         }
       }
       &__img {
