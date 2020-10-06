@@ -4,7 +4,8 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
-    "magnific-popup": "^1.1.0"
+    "magnific-popup": "^1.1.0",
+    "normalize.css": "^8.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
